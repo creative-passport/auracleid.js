@@ -1,0 +1,42 @@
+/**
+ * SPEC: PPPATTTTTTTTTTC
+ * P: Prefix - "AUR"
+ * A: AuracleIDType
+ * T: unix integer millisecond timestamp, in Crockford's 32
+ * C: mod31 Check bit of digits 3-13, in Crockford's
+*/
+/**
+ * Enum for Auracle ID types
+ */
+declare enum AuracleIDType {
+    ARTIST = "A",// AURA
+    COLLAB = "B",// AURB (band)
+    RECORDING = "R"
+}
+/**
+ * Error class for Auracle ID validation failures
+ */
+declare class AuracleIDValidationError extends Error {
+    constructor(message: string);
+}
+/**
+ * Interface for Auracle ID
+ */
+interface IAuracleID {
+    readonly value: string;
+    readonly type: AuracleIDType;
+    readonly createdAt: Date;
+    validate(): boolean;
+}
+/**
+ * Class implementation of Auracle ID
+ */
+declare class AuracleID implements IAuracleID {
+    readonly value: string;
+    constructor(value: string);
+    get type(): AuracleIDType;
+    get createdAt(): Date;
+    validate(): boolean;
+    static create(type: AuracleIDType): AuracleID;
+}
+export { AuracleIDType, AuracleIDValidationError, AuracleID };
