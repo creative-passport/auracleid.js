@@ -2,8 +2,8 @@
   "name": "auracle-id",
   "version": "1.0.0",
   "description": "A TypeScript implementation of Auracle ID generation and validation",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/auracle-id.js",
+  "types": "dist/auracle-id.d.ts",
   "files": [
     "dist"
   ],
@@ -13,6 +13,5 @@
   "devDependencies": {
     "@types/node": "^22.13.10",
     "typescript": "^5.8.2"
-  },
-  "private": true
+  }
 }
