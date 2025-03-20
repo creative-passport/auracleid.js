@@ -23,9 +23,11 @@ import {encodeTimestamp, decodeTimestamp, uniqueTimestamp, calculateCheckDigit} 
  * Enum for Auracle ID types
  */
 enum AuracleIDType {
-    ARTIST = "A",   // AURA
-    COLLAB = "B",   // AURB (band)
-    RECORDING = "R" // AURR
+    ARTIST = "A",       // AURA
+    COLLAB = "B",       // AURB (band)
+    COMPOSITION = "C",  // AURC
+    PERSONA = "P",      // AURP
+    RECORDING = "R"     // AURR
 }
 
 /**

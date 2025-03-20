@@ -25,6 +25,8 @@ var AuracleIDType;
 (function (AuracleIDType) {
     AuracleIDType["ARTIST"] = "A";
     AuracleIDType["COLLAB"] = "B";
+    AuracleIDType["COMPOSITION"] = "C";
+    AuracleIDType["PERSONA"] = "P";
     AuracleIDType["RECORDING"] = "R"; // AURR
 })(AuracleIDType || (exports.AuracleIDType = AuracleIDType = {}));
 /**

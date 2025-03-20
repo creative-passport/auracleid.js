@@ -20,6 +20,8 @@
 declare enum AuracleIDType {
     ARTIST = "A",// AURA
     COLLAB = "B",// AURB (band)
+    COMPOSITION = "C",// AURC
+    PERSONA = "P",// AURP
     RECORDING = "R"
 }
 /**

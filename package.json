@@ -1,6 +1,6 @@
 {
   "name": "auracle-id",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A TypeScript implementation of Auracle ID generation and validation",
   "main": "dist/auracle-id.js",
   "types": "dist/auracle-id.d.ts",
