@@ -22,7 +22,8 @@ declare enum AuracleIDType {
     COLLAB = "B",// AURB (band)
     COMPOSITION = "C",// AURC
     PERSONA = "P",// AURP
-    RECORDING = "R"
+    RECORDING = "R",// AURR
+    PROJECT = "W"
 }
 /**
  * Error class for Auracle ID validation failures

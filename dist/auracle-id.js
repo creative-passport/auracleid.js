@@ -27,7 +27,8 @@ var AuracleIDType;
     AuracleIDType["COLLAB"] = "B";
     AuracleIDType["COMPOSITION"] = "C";
     AuracleIDType["PERSONA"] = "P";
-    AuracleIDType["RECORDING"] = "R"; // AURR
+    AuracleIDType["RECORDING"] = "R";
+    AuracleIDType["PROJECT"] = "W"; // AURW (work)
 })(AuracleIDType || (exports.AuracleIDType = AuracleIDType = {}));
 /**
  * Generate a new Auracle ID
