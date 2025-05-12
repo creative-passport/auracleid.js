@@ -1,7 +1,7 @@
 ```
 SPEC: PPPATTTTTTTTTTC
 P: Prefix - "AUR"
-A: AuracleIDType - A|B|R
+A: AuracleIDType - A|B|C|P|R|W
 T: unix integer millisecond timestamp, in Crockford's 32
 C: mod31 Check bit of digits 3-13, in Crockford's
 ```

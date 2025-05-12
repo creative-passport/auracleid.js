@@ -27,7 +27,8 @@ enum AuracleIDType {
     COLLAB = "B",       // AURB (band)
     COMPOSITION = "C",  // AURC
     PERSONA = "P",      // AURP
-    RECORDING = "R"     // AURR
+    RECORDING = "R",    // AURR
+    PROJECT = "W"       // AURW (work)
 }
 
 /**
