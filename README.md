@@ -6,7 +6,7 @@ However, we have opened the JavaScript source for how create new Auracle IDs, an
 
 An Auracle ID is only truly valid if it was minted by Auracles. For `AURA`, `AURB` and `AURP` IDs, for example, this can be verified by
 ```
-GET https://id.auracles.io/auracle_id/{auracleID}/
+GET https://api.id.auracles.io/auracle_id/{auracleID}/
 ```
 
 ### Spec
